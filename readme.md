@@ -14,8 +14,8 @@
 <p align=center> If you find this project useful, please give it a ⭐ to show your support. </p>
 
 <p align=center>
-  <a href="https://github.com/withastro/astro/releases/tag/astro%406.1.9">
-    <img src="https://img.shields.io/static/v1?label=ASTRO&message=6.1.9&color=000&logo=astro"  alt="Astro Version 6.1.9"/>
+  <a href="https://github.com/withastro/astro/releases/tag/astro%407.0.0">
+    <img src="https://img.shields.io/static/v1?label=ASTRO&message=7.0.0&color=000&logo=astro"  alt="Astro Version 7.0.0"/>
   </a>
 
   <a href="https://github.com/zeon-studio/astroplate/blob/main/LICENSE">
@@ -73,8 +73,8 @@
 
 ### 📦 Dependencies
 
-- astro v6.1.9
-- node v22.12.0+ (see `.nvmrc`)
+- astro v7.0.0
+- node v22.12.0+
 - tailwind v4+
 
 ### 👉 Install Dependencies
