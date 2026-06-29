@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 const Youtube = ({
   id,
@@ -13,8 +13,15 @@ const Youtube = ({
     import("@justinribeiro/lite-youtube");
   }, []);
 
-  // @ts-ignore
-  return <lite-youtube className="rounded-lg" videoid={id} videotitle={title} {...rest} />;
+  return (
+    // @ts-ignore
+    <lite-youtube
+      className="rounded-lg"
+      videoid={id}
+      videotitle={title}
+      {...rest}
+    />
+  );
 };
 
 export default Youtube;
